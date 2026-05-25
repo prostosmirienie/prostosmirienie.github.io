@@ -9,34 +9,94 @@ languages:
     languageName: "English"
     weight: 1
     title: "simhumileco"
+    contentDir: "content/en"
     params:
       author: "simhumileco"
       description: "math, cs and things around"
       info: ["Mathematics, computer science and things around..."]
+    menu:
+      main:
+        - name: "Posts"
+          url: "/posts/"
+          weight: 1
+        - name: "Categories"
+          url: "/categories/"
+          weight: 2
+        - name: "Tags"
+          url: "/tags/"
+          weight: 3
   de:
     languageName: "Deutsch"
     weight: 2
     title: "simhumileco"
+    contentDir: "content/de"
     params:
       info: ["Mathematik, Informatik und Themen rund herum..."]
+    menu:
+      main:
+        - name: "Posts"
+          url: "/de/posts/"
+          weight: 1
+        - name: "Kategorien"
+          url: "/de/categories/"
+          weight: 2
+        - name: "Tags"
+          url: "/de/tags/"
+          weight: 3
   pl:
     languageName: "Polski"
     weight: 3
     title: "simhumileco"
+    contentDir: "content/pl"
     params:
       info: ["Matematyka, informatyka i treści na około..."]
+    menu:
+      main:
+        - name: "Wpisy"
+          url: "/pl/posts/"
+          weight: 1
+        - name: "Kategorie"
+          url: "/pl/categories/"
+          weight: 2
+        - name: "Tagi"
+          url: "/pl/tags/"
+          weight: 3
   pt:
     languageName: "Português"
     weight: 4
     title: "simhumileco"
+    contentDir: "content/pt"
     params:
       info: ["Matemática, ciência da computação e temas ao redor..."]
+    menu:
+      main:
+        - name: "Posts"
+          url: "/pt/posts/"
+          weight: 1
+        - name: "Categorias"
+          url: "/pt/categories/"
+          weight: 2
+        - name: "Tags"
+          url: "/pt/tags/"
+          weight: 3
   ru:
     languageName: "Русский"
     weight: 5
     title: "simhumileco"
+    contentDir: "content/ru"
     params:
       info: ["Математика, информатика и всё вокруг..."]
+    menu:
+      main:
+        - name: "Записи"
+          url: "/ru/posts/"
+          weight: 1
+        - name: "Категории"
+          url: "/ru/categories/"
+          weight: 2
+        - name: "Теги"
+          url: "/ru/tags/"
+          weight: 3
 
 params:
   author: "simhumileco"
@@ -50,19 +110,12 @@ params:
   hideColorSchemeToggle: false
   readingTime: true
   TOC: true
+  socialIcons:
+    - name: "stackoverflow"
+      url: "https://stackoverflow.com/users/4217744"
+    - name: "linkedin"
+      url: "https://linkedin.com/in/adam-goszka-a36a1b8a"
 
 taxonomies:
   category: categories
   tag: tags
-
-menu:
-  main:
-    - name: "Posts"
-      url: "/posts/"
-      weight: 1
-    - name: "Categories"
-      url: "/categories/"
-      weight: 2
-    - name: "Tags"
-      url: "/tags/"
-      weight: 3
