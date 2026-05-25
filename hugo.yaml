@@ -1,0 +1,68 @@
+baseURL: "https://prostosmirienie.github.io/"
+title: "simhumileco"
+theme: "hugo-coder"
+defaultContentLanguage: "en"
+defaultContentLanguageInSubdir: false
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    title: "simhumileco"
+    params:
+      author: "simhumileco"
+      description: "math, cs and things around"
+      info: ["Mathematics, computer science and things around..."]
+  de:
+    languageName: "Deutsch"
+    weight: 2
+    title: "simhumileco"
+    params:
+      info: ["Mathematik, Informatik und Themen rund herum..."]
+  pl:
+    languageName: "Polski"
+    weight: 3
+    title: "simhumileco"
+    params:
+      info: ["Matematyka, informatyka i treści na około..."]
+  pt:
+    languageName: "Português"
+    weight: 4
+    title: "simhumileco"
+    params:
+      info: ["Matemática, ciência da computação e temas ao redor..."]
+  ru:
+    languageName: "Русский"
+    weight: 5
+    title: "simhumileco"
+    params:
+      info: ["Математика, информатика и всё вокруг..."]
+
+params:
+  author: "simhumileco"
+  description: "math, cs and things around"
+  keywords: "blog, programming, math, linux"
+  info: ["Mathematics, computer science and things around..."]
+  avatarURL: ""
+  dateFormat: "2006-01-02"
+  since: 2026
+  colorScheme: "auto"
+  hideColorSchemeToggle: false
+  readingTime: true
+  TOC: true
+
+taxonomies:
+  category: categories
+  tag: tags
+
+menu:
+  main:
+    - name: "Posts"
+      url: "/posts/"
+      weight: 1
+    - name: "Categories"
+      url: "/categories/"
+      weight: 2
+    - name: "Tags"
+      url: "/tags/"
+      weight: 3
