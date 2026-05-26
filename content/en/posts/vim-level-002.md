@@ -1,19 +1,12 @@
 ---
-title: "11 Vi Shortcuts Worth Memorizing"
-date: 2026-05-25
-categories: ["linux", "cli"]
-tags: ["vi", "vim", "terminal"]
+title: "Vi-like editors — level 002 [draft]"
+date: 2026-05-27
+categories: ["linux-cli"]
+tags: ["draft"]
+draft: true
 ---
 
-Vi feels hostile until it clicks. These 11 shortcuts are the click.
-
-## Modes
-
-| Key | Action |
-|-----|--------|
-| `i` | Insert before cursor |
-| `a` | Insert after cursor |
-| `Esc` | Back to normal mode |
+*Work in progress.*
 
 ## Navigation
 
