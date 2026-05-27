@@ -1,4 +1,5 @@
 {{ $currentLang := .Site.Language.Lang }}
+{{ $defaultLang := .Site.LanguagePrefix }}
 <header class="header">
   <nav class="navigation">
     <div class="logo">
@@ -22,7 +23,7 @@
         {{- if eq $lang $currentLang }}
         <strong>{{ $flag }}</strong>
         {{- else }}
-        <a href="/{{ if ne $lang $.Site.DefaultContentLanguage }}{{ $lang }}/{{ end }}">{{ $flag }}</a>
+        <a href="/{{ if ne $lang "en" }}{{ $lang }}/{{ end }}">{{ $flag }}</a>
         {{- end }}
       </li>
       {{- end }}

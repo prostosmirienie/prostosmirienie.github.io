@@ -24,13 +24,11 @@ Gdy widzisz `vi` w dokumentacji, prawie zawsze chodzi o `vim`.
 
 Instalacja vima, jeśli go nie ma:
 
-```bash
-# Debian / Ubuntu
-sudo apt install vim
+    # Debian / Ubuntu
+    sudo apt install vim
 
-# RHEL / Fedora
-sudo dnf install vim
-```
+    # RHEL / Fedora
+    sudo dnf install vim
 
 Wszystkie trzy obsługują wtyczki i rozszerzenia — ekosystem vima jest ogromny.
 
@@ -50,12 +48,12 @@ Bez zrozumienia trybów nic innego nie ma sensu. To najważniejsza koncepcja.
 
 | Polecenie | Akcja |
 |-----------|-------|
-| `:w` | Zapisz plik |
+| `:w` | Zapisz |
 | `:q` | Wyjdź |
 | `:wq` | Zapisz i wyjdź |
 | `:q!` | Wyjdź bez zapisywania |
 
-> `:w` zakończy się błędem jeśli nie masz uprawnień do zapisu pliku — w takim przypadku
+> `:w` zakończy się błędem jeśli nie masz uprawnień do zapisu — w takim przypadku
 > `:q!` to Twoje wyjście. Bez zapisywania zmian.
 
 ---
