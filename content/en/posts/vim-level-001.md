@@ -14,13 +14,11 @@ different things depending on the active mode. Learn the pattern once — you kn
 
 The three you will most likely encounter:
 
-- **vi** — the original (~50 KB). Rarely seen in practice; mostly a historical artifact.
-- **vim-tiny** — a stripped-down vim (~300 KB), often preinstalled on minimal Debian/Ubuntu systems.
-  No plugins, limited features.
 - **vim** — the standard (~2–3 MB). Feature-rich, extensible with plugins. This is what you actually want.
+- **vim-tiny** — a stripped-down vim (~300 KB), often preinstalled on minimal Debian/Ubuntu systems. No plugins, limited features.
+- **vi** — the original (~50 KB). Rarely seen in practice; mostly a historical artifact.
 
-On most modern systems, typing `vi` opens `vim` — it is just an alias. So when you see `vi`
-in documentation, they almost always mean `vim`.
+On most modern systems, typing `vi` opens `vim` — it is just an alias. So when you see `vi` in documentation, they almost always mean `vim`.
 
 Install vim if it is missing:
 
@@ -53,8 +51,7 @@ Without understanding modes, nothing else makes sense. This is the most importan
 | `:wq` | Save and quit |
 | `:q!` | Quit without saving |
 
-> `:w` will fail if you do not have write permissions on the file — in that case `:q!` is
-> your exit. No changes saved.
+> Sometimes `:w` will fail if you open a file that you don't have write permissions on — in that case `:q!` is your exit. No changes saved.
 
 ---
 
